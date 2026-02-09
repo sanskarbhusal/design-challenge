@@ -1,0 +1,103 @@
+.metric-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 34.8125rem;
+    background-color: white;
+    padding-inline: 7.5rem;
+}
+
+.metric-section h3 {
+    color: #383838;
+    font-family: "Optima bold", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.metric-section p {
+    color: #595959;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.metric-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.metric-card {
+    width: 17.8125rem;
+    height: 20.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-radius: 1.5rem;
+    background-color: #F7F8FB;
+    color: #383838;
+    padding-top: 1.875rem;
+    padding-inline: 2.1875rem;
+    margin-block-start: 4rem;
+}
+
+@media (max-width:665px) {
+
+    .metric-card {
+        width: 90%;
+    }
+}
+
+@media (max-width:984px) {
+
+    .metric-section {
+        padding-inline: 2rem;
+    }
+
+    .metric-card-container {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:1158px) {
+
+    .metric-section .metric-section-heading,
+    .metric-section-sub-heading {
+        text-align: center;
+    }
+
+    .metric-card {
+        align-items: center;
+    }
+}
+
+.metric-card div {
+    width: 100%;
+    text-align: center;
+    font-size: 4.5rem !important;
+    font-weight: bold;
+    font-family: "Optima", sans-serif;
+    line-height: 120%;
+    color: #400D14 !important;
+}
+
+.metric-percent {
+    margin-inline-start: 0 !important;
+}
+
+.metric-name {
+    font-family: "Optima bold", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #383838 !important;
+    margin-top: 8.75rem;
+}
+
+.metric-description {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #595959;
+}

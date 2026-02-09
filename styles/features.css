@@ -1,0 +1,109 @@
+.features-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #400D14;
+    color: white;
+    margin-block-start: 6rem;
+    padding-inline: 7.5rem;
+    padding-block: 5.1875rem;
+}
+
+
+#features-section-heading {
+    margin-block-start: 0rem;
+    font-family: "Optima", sans-serif;
+}
+
+#features-section-subheading {
+    margin-block-start: -0.72rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.feature-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin-top: 3.7rem;
+}
+
+.features-section h3 {
+    font-family: "Optima", sans-serif;
+    font-size: 2rem;
+}
+
+.feature-card {
+    width: 16.625rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width:0px) and (max-width:1053px) {
+    .features-section {
+        padding-inline: 2rem;
+    }
+
+    #features-section-heading,
+    #features-section-subheading {
+        text-align: center;
+    }
+
+    .feature-cards-container {
+        justify-content: space-around;
+    }
+
+    .feature-card {
+        align-items: center;
+    }
+
+    .feature-card h5,
+    p {
+        text-align: center;
+    }
+}
+
+@media (min-width:1054px) and (max-width:1229px) {
+
+    #features-section-heading,
+    #features-section-subheading {
+        text-align: center;
+    }
+
+    .feature-card {
+        align-items: center;
+    }
+
+    .feature-card h5,
+    p {
+        text-align: center;
+    }
+
+
+}
+
+
+.feature-card img {
+    max-inline-size: 100%;
+    display: block;
+    width: 3.5rem;
+    margin-block-end: 5px;
+}
+
+.feature-card h5 {
+    font-family: "Optima", sans-serif;
+    font-size: 1.125rem;
+    line-height: 100%;
+}
+
+.feature-card p {
+    margin-block-start: -0.85rem;
+    line-height: 150%;
+    max-width: 14rem;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
